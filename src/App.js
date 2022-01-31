@@ -34,10 +34,12 @@ function App() {
       </h1>
       <div className='bottom'>
         {/* here, the CityNameInput component takes in the setCityName state handler function */}
+        <CityNameInput 
+          setCityName={setCityName}
+        />
         <section className='dropdowns'>
           {/* 
           render all three Dropdown components (WaterfrontDropdown, SkylineDropdown, CastleDropdown) here. 
-          
           In each Dropdown, pass as props the state handler functions defined above, so that these child components can manipulate parent state 
           */}
           <SkylineDropdown 
