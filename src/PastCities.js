@@ -1,7 +1,7 @@
 import React from 'react';
 import DisplaySmallCity from './DisplaySmallCity';
 
-export default function PastCities({ citiesArray, setCitiesArray, cityName, skylineId, waterfrontId, castleId, slogans, setCityName, setSlogans }) {
+export default function PastCities({ citiesArray, setCitiesArray, cityName, skylineId, waterfrontId, castleId, slogans }) {
 
   function handleClick() {
     setCitiesArray([...citiesArray, 
@@ -16,8 +16,6 @@ export default function PastCities({ citiesArray, setCitiesArray, cityName, skyl
     //reset form inputs - how to do this when inputs are tracked locally in their components and this is a different component?
 
   }
-
-  console.log(citiesArray);
 
   return <div>
     <button onClick={handleClick}>
