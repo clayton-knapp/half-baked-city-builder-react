@@ -3,7 +3,6 @@ import './App.css';
 // import SkylineDropdown from './SkylineDropdown';
 // import WaterfrontDropdown from './WaterfrontDropdown';
 // import CastleDropdown from './CastleDropdown';
-import City from './City';
 import Form from './Form.js';
 import Display from './Display';
 
