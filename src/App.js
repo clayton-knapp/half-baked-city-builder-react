@@ -55,6 +55,8 @@ function App() {
         castleId = {castleId}
         cityName = {cityName}
         slogans= {slogans}
+        setCityName={setCityName}
+        setSlogans={setSlogans}
       />
     </div>
   );

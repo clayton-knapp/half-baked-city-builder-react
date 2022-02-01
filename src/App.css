@@ -56,3 +56,11 @@ select {
 .pic {
   height: 100px;
 }
+
+.slogan-item {
+  margin: 5px;
+}
+
+.slogan-header {
+  margin: 5px;
+}
