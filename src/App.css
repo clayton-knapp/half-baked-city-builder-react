@@ -41,3 +41,18 @@ select {
     grid-template-rows: 1fr 1fr;
     border: solid 1px black;
 }
+
+
+.small-city {
+  border: 1px black solid;
+  margin: 20px;
+}
+
+.small-pics {
+  display: flex;
+  flex-direction: row;
+}
+
+.pic {
+  height: 100px;
+}

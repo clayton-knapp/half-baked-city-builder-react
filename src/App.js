@@ -5,6 +5,7 @@ import './App.css';
 // import CastleDropdown from './CastleDropdown';
 import Form from './Form.js';
 import Display from './Display';
+import PastCities from './PastCities';
 
 function App() {
   // track some state here.
@@ -16,6 +17,9 @@ function App() {
   const [cityName, setCityName] = useState('AnyTownUSA');
   // finally, you'll need an array of slogans, which could start out as ['The City of Excellence'] for example
   const [slogans, setSlogans] = useState(['The city that forced me to quit being an Artist and become a coder', 'Man, the weather sucks here from October-April']);
+
+//STRETCH - passed cities
+  const [citiesArray, setCitiesArray] = useState([]);
 
 
   //STRETCH: Single Dropdown Component
@@ -42,6 +46,15 @@ function App() {
         castleOptionNames={castleOptionNames}
         slogans={slogans}
         setSlogans={setSlogans}
+      />
+      <PastCities 
+        citiesArray = {citiesArray}
+        setCitiesArray = {setCitiesArray}
+        skylineId = {skylineId}
+        waterfrontId = {waterfrontId}
+        castleId = {castleId}
+        cityName = {cityName}
+        slogans= {slogans}
       />
     </div>
   );
